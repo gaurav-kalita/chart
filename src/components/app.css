@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh; 
+     background-color: azure; 
+}
+
+.heading{
+    padding : 20px 20px;
+    font-size: 30px;
+}
+
+.piechart{
+    height: 500px;
+    width: 500px;
+    padding: 20px 20px;
+
+}
