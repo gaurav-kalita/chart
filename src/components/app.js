@@ -1,6 +1,6 @@
-import React from 'react';
-import Victorypie from './victorypie';
-import './app.css'
+import React, {Component} from 'react';
+import Chart from './Chart';
+import './app.css';
 
 
 class App extends React.Component {
@@ -11,8 +11,8 @@ class App extends React.Component {
         return (
             <div className="container">
             <div className="heading"><h3>Nice job..! here is the result</h3></div>
-                <div className="piechart">
-                     < Victorypie className="victorypie" data={this.state.data}  />
+                <div className="polarchart">
+                     < Chart  />
                 </div>
             </div>
         )
